@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,green, #fad0c4);
+  text-align: center;
+  padding: 50px;
+}
+
+.converter-container {
+  background: white;
+  padding: 30px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e65c00;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
